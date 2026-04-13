@@ -1,46 +1,46 @@
-// // #include <Arduino.h>
+// #include <Arduino.h>
 
-// // #define RED_LED 15
-// // #define GREEN_LED 16
-// // #define BLUE_LED 18
+// #define RED_LED 15
+// #define GREEN_LED 16
+// #define BLUE_LED 18
 
-// // void setup() {
-// //   Serial.begin(115200);
-// //   pinMode(RED_LED, OUTPUT);
-// //   pinMode(GREEN_LED, OUTPUT);
-// //   pinMode(BLUE_LED, OUTPUT);
+// void setup() {
+//   Serial.begin(115200);
+//   pinMode(RED_LED, OUTPUT);
+//   pinMode(GREEN_LED, OUTPUT);
+//   pinMode(BLUE_LED, OUTPUT);
 
-// //   // Matikan semua LED dulu (Common Anode = HIGH untuk mati)
-// //   digitalWrite(RED_LED, HIGH);
-// //   digitalWrite(GREEN_LED, HIGH);
-// //   digitalWrite(BLUE_LED, HIGH);
+//   // Matikan semua LED dulu (Common Anode = HIGH untuk mati)
+//   digitalWrite(RED_LED, HIGH);
+//   digitalWrite(GREEN_LED, HIGH);
+//   digitalWrite(BLUE_LED, HIGH);
 
-// //   Serial.println("Contoh Program LED RGB");
-// // }
+//   Serial.println("Contoh Program LED RGB");
+// }
 
-// // void rgbLED(){
-// //   digitalWrite(RED_LED, HIGH);   // nyala
-// //   digitalWrite(GREEN_LED, LOW); // mati
-// //   digitalWrite(BLUE_LED, LOW);  // mati
-// //   Serial.println("LED Merah nyala");
-// //   delay(1000);
+// void rgbLED(){
+//   digitalWrite(RED_LED, HIGH);   // nyala
+//   digitalWrite(GREEN_LED, LOW); // mati
+//   digitalWrite(BLUE_LED, LOW);  // mati
+//   Serial.println("LED Merah nyala");
+//   delay(1000);
 
-// //   digitalWrite(RED_LED, LOW);  // mati
-// //   digitalWrite(GREEN_LED, HIGH);  // nyala
-// //   digitalWrite(BLUE_LED, LOW);  // mati
-// //   Serial.println("LED Hijau nyala");
-// //   delay(1000);
+//   digitalWrite(RED_LED, LOW);  // mati
+//   digitalWrite(GREEN_LED, HIGH);  // nyala
+//   digitalWrite(BLUE_LED, LOW);  // mati
+//   Serial.println("LED Hijau nyala");
+//   delay(1000);
 
-// //   digitalWrite(RED_LED, LOW);  // mati
-// //   digitalWrite(GREEN_LED, LOW); // mati
-// //   digitalWrite(BLUE_LED, HIGH);   // nyala
-// //   Serial.println("LED Biru nyala");
-// //   delay(1000);
-// // }
+//   digitalWrite(RED_LED, LOW);  // mati
+//   digitalWrite(GREEN_LED, LOW); // mati
+//   digitalWrite(BLUE_LED, HIGH);   // nyala
+//   Serial.println("LED Biru nyala");
+//   delay(1000);
+// }
 
-// // void loop() {
-// //   rgbLED();
-// // }
+// void loop() {
+//   rgbLED();
+// }
 
 
 // #include <Arduino.h>
